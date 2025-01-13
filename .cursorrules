@@ -1,0 +1,124 @@
+# Feedback Chatbot System Master Plan - Development Rules
+
+## Project Structure Rules
+
+### Backend (FastAPI)
+- Keep all backend code in the `backend/` directory
+- Use `app/` for application code
+- Place models in `app/models/`
+- Place services in `app/services/`
+- Keep tests in `tests/` directory
+- Use meaningful file names
+
+### Frontend (Streamlit)
+- Keep all frontend code in the `frontend/` directory
+- Place application code in `src/`
+- Keep tests in `tests/` directory
+- Use descriptive component names
+
+## Code Style
+
+### Python
+- Follow PEP 8 guidelines
+- Use type hints
+- Write docstrings for functions and classes
+- Keep functions small and focused
+- Use meaningful variable names
+
+### FastAPI
+- Use Pydantic models for data validation
+- Implement proper error handling
+- Use appropriate HTTP status codes
+- Document API endpoints
+- Keep endpoints RESTful
+
+### Streamlit
+- Use proper form validation
+- Show clear error messages
+- Implement loading states
+- Handle API errors gracefully
+- Keep UI components organized
+
+## Data Management
+
+### Storage
+- Use atomic operations for file writes
+- Validate data before saving
+- Implement proper error handling
+- Keep backups of important data
+
+### Environment Variables
+- Use python-dotenv
+- Never commit .env files
+- Document all required variables
+- Use meaningful variable names
+
+## Testing
+
+### Backend Tests
+- Write unit tests for models
+- Test API endpoints
+- Mock external services
+- Test error conditions
+
+### Frontend Tests
+- Test form validation
+- Test API integration
+- Test error handling
+- Test UI components
+
+## Git Practices
+
+### Commits
+- Write clear commit messages
+- Keep commits focused
+- Follow conventional commits
+- Reference issues when relevant
+
+### Branches
+- Use feature branches
+- Keep main branch stable
+- Delete merged branches
+- Use meaningful branch names
+
+## Documentation
+
+### Code Comments
+- Explain complex logic
+- Document assumptions
+- Keep comments up to date
+- Use inline documentation
+
+### README
+- Keep it current
+- Include setup instructions
+- Document features
+- List dependencies
+
+## Security
+
+### General
+- Never commit secrets
+- Use environment variables
+- Validate user input
+- Handle errors securely
+
+### API Security
+- Implement rate limiting
+- Use proper authentication
+- Validate request data
+- Handle sensitive data carefully
+
+## Performance
+
+### Backend
+- Use async where appropriate
+- Implement caching
+- Optimize database queries
+- Monitor performance
+
+### Frontend
+- Minimize API calls
+- Use proper loading states
+- Implement pagination
+- Optimize UI updates

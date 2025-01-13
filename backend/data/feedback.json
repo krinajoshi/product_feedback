@@ -1,0 +1,98 @@
+[
+  {
+    "id": null,
+    "text": "this is my feedback.\n",
+    "feedback_type": "satisfaction",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T17:57:20.730685",
+    "user_id": null
+  },
+  {
+    "id": null,
+    "text": "i need this feature!\n",
+    "feedback_type": "feature",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T17:57:32.745218",
+    "user_id": null
+  },
+  {
+    "id": null,
+    "text": "what the worst app!",
+    "feedback_type": "bug",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T17:57:44.214417",
+    "user_id": null
+  },
+  {
+    "id": null,
+    "text": "feedback_type: satisfaction\nsatisfaction_score: 2\nspecific_aspect: asda\ndetailed_feedback: sadada",
+    "feedback_type": "satisfaction",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T18:34:28.125310",
+    "user_id": null
+  },
+  {
+    "id": null,
+    "text": "feedback_type: satisfaction\nsatisfaction_score: 2\nservice_used: Website\nsatisfaction_details: sad",
+    "feedback_type": "satisfaction",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T18:38:14.651726",
+    "user_id": null
+  },
+  {
+    "id": null,
+    "text": "feedback_type: feature\nfeature_type: New Feature\nfeature_description: asd\nfeature_importance: 5\nfeature_problem_solution: asdasd",
+    "feedback_type": "feature",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T18:38:31.465556",
+    "user_id": null
+  },
+  {
+    "id": null,
+    "text": "feedback_type: satisfaction\nsatisfaction_score: 1\nservice_used: Website\nsatisfaction_details: ",
+    "feedback_type": "satisfaction",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T18:38:51.869370",
+    "user_id": null
+  },
+  {
+    "id": null,
+    "text": "feedback_type: general\ngeneral_aspect: Performance\ngeneral_feedback: sad",
+    "feedback_type": "general",
+    "sentiment_score": 0.5,
+    "created_at": "2025-01-11T18:39:10.513705",
+    "user_id": null
+  },
+  {
+    "text": "{'feedback_type': 'satisfaction', 'product_name': '', 'user_role': 'End User', 'satisfaction_score': 1, 'positive_feedback': '', 'pain_points': '', 'nps': 'Definitely'}",
+    "feedback_type": "satisfaction",
+    "responses": {
+      "feedback_type": "satisfaction",
+      "product_name": "",
+      "user_role": "End User",
+      "satisfaction_score": 1,
+      "positive_feedback": "",
+      "pain_points": "",
+      "nps": "Definitely"
+    },
+    "created_at": "2025-01-11T19:14:01.743749",
+    "user_id": null,
+    "sentiment_score": null
+  },
+  {
+    "text": "{'feedback_type': 'satisfaction', 'product_name': '', 'user_role': 'End User', 'satisfaction_score': 1, 'positive_feedback': '', 'pain_points': '', 'nps': 'Definitely'}",
+    "feedback_type": "satisfaction",
+    "responses": {
+      "feedback_type": "satisfaction",
+      "product_name": "",
+      "user_role": "End User",
+      "satisfaction_score": 1,
+      "positive_feedback": "",
+      "pain_points": "",
+      "nps": "Definitely"
+    },
+    "created_at": "2025-01-11T19:14:08.849026",
+    "user_id": null,
+    "sentiment_score": null
+  }
+]
