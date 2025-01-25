@@ -1,0 +1,35 @@
+[
+  {
+    "text": "{'feedback_type': 'Satisfaction', 'product_name': '', 'user_role': 'End User', 'satisfaction_score': 1, 'positive_feedback': '', 'pain_points': '', 'nps': 'Definitely'}",
+    "feedback_type": "Satisfaction",
+    "responses": {
+      "feedback_type": "Satisfaction",
+      "product_name": "",
+      "user_role": "End User",
+      "satisfaction_score": 1,
+      "positive_feedback": "",
+      "pain_points": "",
+      "nps": "Definitely"
+    },
+    "created_at": "2025-01-14T16:27:49.386112",
+    "user_id": null,
+    "sentiment_score": null
+  },
+  {
+    "text": "{'feedback_type': 'Feature', 'product_name': 'krian', 'user_role': 'End User', 'feature_description': 'bmn,', 'problem_solution': 'bmn', 'usage_frequency': 'Multiple times daily', 'business_impact': 'Revenue Increase', 'urgency': 'Critical - Blocking Work'}",
+    "feedback_type": "Feature",
+    "responses": {
+      "feedback_type": "Feature",
+      "product_name": "krian",
+      "user_role": "End User",
+      "feature_description": "bmn,",
+      "problem_solution": "bmn",
+      "usage_frequency": "Multiple times daily",
+      "business_impact": "Revenue Increase",
+      "urgency": "Critical - Blocking Work"
+    },
+    "created_at": "2025-01-24T09:09:03.218234",
+    "user_id": null,
+    "sentiment_score": null
+  }
+]

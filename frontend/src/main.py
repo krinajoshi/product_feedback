@@ -12,6 +12,10 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
     <style>
+            
+    .st-at {
+            background-color: #000000;
+            }
     /* uOttawa Colors */
     :root {
         --uottawa-garnet: #8f001a;
@@ -27,7 +31,7 @@ st.markdown("""
     /* Main Container */
     .main {
         padding: 2rem;
-        font-family: "Helvetica Neue", Arial, sans-serif;
+       font-family: "Work Sans", sans-serif;
         color: var(--uottawa-grey);
         max-width: 1200px;
         margin: 0 auto;
@@ -54,6 +58,9 @@ st.markdown("""
         text-transform: uppercase;
         letter-spacing: 0.5px;
         transition: background-color 0.3s ease;
+        position: relative;
+        bottom: -20px;
+        border-radius: 25px / 50%;
     }
 
     .stButton button:hover {
@@ -199,7 +206,7 @@ st.markdown("""
         text-align: center;
         margin-bottom: 1.5em;
         line-height: 1.2;
-        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-family: "Work Sans", sans-serif;
     }
 
     /* Responsive h1 */
@@ -234,7 +241,7 @@ def get_question_flow(feedback_type):
             "question": "What type of feedback would you like to provide?",
             "type": "selectbox",
             "key": "feedback_type",
-            "options": ["satisfaction", "feature", "bug", "team_feedback", "process_feedback", "general"]
+            "options": ["Satisfaction", "Feature", "Bug", "Team Feedback", "Process Feedback", "General"]
         },
         {
             "question": "Which product/service are you providing feedback about?",
@@ -250,7 +257,7 @@ def get_question_flow(feedback_type):
     ]
     
     type_specific_questions = {
-        "satisfaction": [
+        "Satisfaction": [
             {
                 "question": "How satisfied are you with the product?",
                 "type": "slider",
@@ -275,7 +282,7 @@ def get_question_flow(feedback_type):
                 "options": ["Definitely", "Probably", "Not Sure", "Probably Not", "Definitely Not"]
             }
         ],
-        "feature": [
+        "Feature": [
             {
                 "question": "What new feature would you like to suggest?",
                 "type": "text_area",
@@ -305,7 +312,7 @@ def get_question_flow(feedback_type):
                 "options": ["Critical - Blocking Work", "High - Major Impact", "Medium - Significant Value", "Low - Nice to Have"]
             }
         ],
-        "bug": [
+        "Bug": [
             {
                 "question": "What is the severity of this issue?",
                 "type": "selectbox",
@@ -334,7 +341,7 @@ def get_question_flow(feedback_type):
                 "options": ["Every time", "Frequently", "Sometimes", "Rarely", "First time"]
             }
         ],
-        "general": [
+        "General": [
             {
                 "question": "Which aspect would you like to discuss?",
                 "type": "selectbox",
@@ -358,7 +365,7 @@ def get_question_flow(feedback_type):
                 "options": ["Yes", "Maybe", "No"]
             }
         ],
-        "team_feedback": [
+        "Team Feedback": [
             {
                 "question": "Which team are you providing feedback about?",
                 "type": "selectbox",
@@ -409,7 +416,7 @@ def get_question_flow(feedback_type):
                 "options": ["Excellent", "Good", "Adequate", "Needs Improvement", "Poor"]
             }
         ],
-        "process_feedback": [
+        "Process Feedback": [
             {
                 "question": "Which process area are you providing feedback about?",
                 "type": "selectbox",
